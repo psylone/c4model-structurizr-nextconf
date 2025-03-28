@@ -28,3 +28,10 @@ structurizr-cli push <params> -workspace lite/workspace.dsl
 ```
 
 Значение параметров `params` можно получить в Structurizr on-premises на [странице настроек](http://localhost:8081/workspace/1/settings) workspace.
+
+## Документация
+
+- [C4 model](https://c4model.com/)
+- [Structurizr DSL](https://docs.structurizr.com/dsl)
+- [Structurizr Lite](https://docs.structurizr.com/lite)
+- [Structurizr on-premises](https://docs.structurizr.com/onpremises)
