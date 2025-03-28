@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  structurizr-lite:
+    image: structurizr/lite:latest
+    container_name: structurizr-lite
+    ports:
+      - 8080:8080
+    volumes:
+      - ./lite:/usr/local/structurizr
+
+  structurizr-onpremises:
+    image: structurizr/onpremises:latest
+    container_name: structurizr-onpremises
+    ports:
+      - 8081:8080
+    volumes:
+      - ./onpremises:/usr/local/structurizr
+
+volumes:
+  structurizr-lite-data:
+  structurizr-onpremises-data:
