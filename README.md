@@ -35,3 +35,4 @@ structurizr-cli push <params> -workspace lite/workspace.dsl
 - [Structurizr DSL](https://docs.structurizr.com/dsl)
 - [Structurizr Lite](https://docs.structurizr.com/lite)
 - [Structurizr on-premises](https://docs.structurizr.com/onpremises)
+- [Презентация](/NextWayConf%202025.pdf)
